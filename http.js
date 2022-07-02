@@ -5,4 +5,4 @@ var server = http.createServer((req,res)=> {
     res.end();
 })
 
-server.listen(8686)
+server.listen(port)

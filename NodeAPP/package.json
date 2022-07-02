@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.7.0",
+    "morgan": "^1.10.0"
+  },
+  "name": "newapp1",
+  "version": "1.0.0",
+  "description": "Project.template",
+  "main": "http.js",
+  "scripts": {
+    "start": "node StaticApi.js",
+    "dev": "node StaticApi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pragati-star/NodeServer.git"
+  },
+  "keywords": [
+    "job",
+    "template",
+    "nodejs",
+    "packages"
+  ],
+  "author": "Pragati Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pragati-star/NodeServer/issues"
+  },
+  "homepage": "https://github.com/Pragati-star/NodeServer#readme"
+}
