@@ -13,7 +13,7 @@
   "main": "http.js",
   "scripts": {
     "start": "node StaticApi.js",
-    "dev": "node StaticApi.js"
+    "dev" : "nodemon StaticApi.js"
   },
   "repository": {
     "type": "git",
@@ -31,4 +31,4 @@
     "url": "https://github.com/Pragati-star/NodeServer/issues"
   },
   "homepage": "https://github.com/Pragati-star/NodeServer#readme"
-}
+} 

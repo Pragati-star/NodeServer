@@ -1,3 +1,4 @@
+const { prototype } = require('events');
 var http = require('http');
 // var port = process.env.PORT || 8686
 var server = http.createServer((req,res)=> {
@@ -5,4 +6,4 @@ var server = http.createServer((req,res)=> {
     res.end();
 })
 
-server.listen(8686 )
+server.listen(port)
